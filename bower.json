@@ -1,0 +1,14 @@
+{
+  "name": "deliteful-Combobox-build",
+  "version": "0.6.0",
+  "dependencies": {
+    "requirejs": "2.1.x"
+  },
+  "ignore": [
+    ".jshintrc",
+    ".gitattributes",
+    ".travis.yml",
+    "tests",
+    "CONTRIBUTING.md"
+  ]
+}
