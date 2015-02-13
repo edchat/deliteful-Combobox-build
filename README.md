@@ -45,18 +45,13 @@ Or you can load the "deliteful-Combobox-build/layer" with a script tag, without 
 
 Then to use the Combobox widget with a declarative instantiation, add this to your html:
 ```
-  <label>
-    <d-Combobox name="option1" checked="true"></d-Combobox>
-    Option 1
-  </label>
-  <label>
-    <d-Combobox name="option2"></d-Combobox>
-    Option 2
-  </label>
-  <label>
-    <d-Combobox disabled="true" name="option3"></d-Combobox>
-    Option 3
-  </label>
+  <d-combobox>
+    <d-list store="store"></d-list>
+  </d-combobox>
+  <d-store id="store">
+    { "label": "France", ... },
+      ...
+  </d-store>
 ```
 See [`deliteful/Combobox`](https://github.com/ibm-js/deliteful/blob/master/docs/Combobox.md) for full details on how instantiate a Combobox widget.
 
