@@ -31,7 +31,7 @@ require(["app/main", "deliteful/Combobox"], function() {
 ```
 Becomes:
 ```js
-require(["deliteful-Combobox-build/layer"], function() {
+require(["delite-fullBuild/fullBuild", "deliteful-Combobox-build/layer"], function() {
 	require(["app/main", "deliteful/Combobox"], function() {
 		...
 	});
